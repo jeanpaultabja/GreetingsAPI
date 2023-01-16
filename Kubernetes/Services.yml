@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+ name: greetingsapi
+spec:
+ type: NodePort
+ selector:
+   app: greetingsapi
+ ports:
+   - name: client
+     protocol: TCP
+     port: 8080
+     nodePort: 32086
