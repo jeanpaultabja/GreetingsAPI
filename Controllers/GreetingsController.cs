@@ -30,7 +30,7 @@ namespace GreetingsAPI.Controllers
         public GreetingsAPI.Schemas.GreetingsResponse Post(GreetingsRequest msggreetingsrequest)
         {
             GreetingsResponse msggreetingsresponse = new GreetingsResponse();
-            msggreetingsresponse.Greetings = "Hello" + msggreetingsrequest.Name;
+            msggreetingsresponse.Greetings = "Hello " + msggreetingsrequest.Name;
 
             return msggreetingsresponse;
         }
