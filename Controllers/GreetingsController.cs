@@ -24,8 +24,7 @@ namespace GreetingsAPI.Controllers
         }
 
         // POST api/<GreetingsController>
-        [HttpPost]
-        
+        [HttpPost]        
 
         public GreetingsAPI.Schemas.GreetingsResponse Post(GreetingsRequest msggreetingsrequest)
         {
