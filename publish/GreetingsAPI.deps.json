@@ -8,7 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "GreetingsAPI/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD
           "Instana.Tracing.Core": "1.250.1",
+=======
+>>>>>>> 7e62237da9c13a4907acaefa6079ece261348a84
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -16,6 +19,7 @@
           "GreetingsAPI.dll": {}
         }
       },
+<<<<<<< HEAD
       "Instana.Tracing.Core/1.250.1": {
         "runtime": {
           "lib/netstandard2.0/Instana.Tracing.Api.dll": {
@@ -40,6 +44,8 @@
           }
         }
       },
+=======
+>>>>>>> 7e62237da9c13a4907acaefa6079ece261348a84
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
@@ -96,6 +102,7 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "Instana.Tracing.Core/1.250.1": {
       "type": "package",
       "serviceable": true,
@@ -103,6 +110,8 @@
       "path": "instana.tracing.core/1.250.1",
       "hashPath": "instana.tracing.core.1.250.1.nupkg.sha512"
     },
+=======
+>>>>>>> 7e62237da9c13a4907acaefa6079ece261348a84
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
