@@ -8,11 +8,36 @@
     ".NETCoreApp,Version=v6.0": {
       "GreetingsAPI/1.0.0": {
         "dependencies": {
+          "Instana.Tracing.Core": "1.250.1",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "GreetingsAPI.dll": {}
+        }
+      },
+      "Instana.Tracing.Core/1.250.1": {
+        "runtime": {
+          "lib/netstandard2.0/Instana.Tracing.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Instana.Tracing.Core.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Instana.Tracing.Core.Instrumentation.dll": {
+            "assemblyVersion": "1.1.30.0",
+            "fileVersion": "1.1.30.0"
+          },
+          "lib/netstandard2.0/Instana.Tracing.Core.Transport.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Instana.Tracing.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -70,6 +95,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Instana.Tracing.Core/1.250.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6nxypkQU0JcoMddceypTfwuh/h4wfdQBmGkvS4ASGgi60/RxIvmuFzBhGRX9h6I0d9O9uBxe2EGTd35GyEw6ig==",
+      "path": "instana.tracing.core/1.250.1",
+      "hashPath": "instana.tracing.core.1.250.1.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
