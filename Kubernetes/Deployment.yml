@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: greetingsapicontainer
-        image: docker.io/jptabja/greetingsapi:latest
+        image: docker.io/jptabja/greetingsapi:v1
         ports:
         - containerPort: 8080
